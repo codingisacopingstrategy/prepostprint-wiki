@@ -1,0 +1,7 @@
+base     prepostprint
+author   PrePostPrint contributors
+email    bonjour+ppp@raphaelbastide.com
+date     2017-10-22
+name     PrePostPrint
+desc     Template for PrePostPrint project
+url      https://prepostprint.org/
