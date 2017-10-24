@@ -1,0 +1,6 @@
+====== Resources ======
+
+  * [[http://osp.kitchen/tools/html2print/|OSP’s HTML2PRINT]]: is a boilerplate to start a print project using HTML, less/CSS and Javascript/Jquery. It was used for [[https://github.com/HEAR/HTML_sauce-cocktail-workshop-OSP|workshops]], [[https://github.com/Antoine-Gelgon/memoire-dnsep|thesis]] and more…
+  * [[http://blog.lavillahermosa.com/brass-%E2%86%92-print-tool-v1/|Brass Print Tool]]: An article about Villa Hermosa’s process to generate PDF flyers from a unique database.
+  * [[http://computedlayout.tumblr.com/|Computed Layout]] a tumblr created by Raphaël Bastide and Louise Drulhe in 2015, the first intention to gather tools, student’s and professional’s projects, and events around experimental publishing systems.
+  * [[https://www.pagedmedia.org/|Paged Media]] is a blog which advocates for innovative approaches to making books in browsers. Created in 2016 by Dave Cramer and Adam Hydek

@@ -1,0 +1,32 @@
+1508794873	::1	C	en:resources	admin	+1		28
+1508795004	::1	C	en:sidebar	admin	created		30
+1508795348	::1	E	en:introduction	admin	Title		21
+1508795847	::1	E	en:introduction	admin	Add image		36
+1508846635	::1	C	fr:introduction	admin	créée		831
+1508846670	::1	C	fr:sidebar	admin	créée		189
+1508846687	::1	E	fr:sidebar	admin			-159
+1509045466	::1	C	en:showcase	admin	created		1781
+1509045704	::1	E	en:showcase	admin	Fix link		32
+1509045776	::1	E	en:resources	admin			913
+1509046446	::1	E	en:sidebar	admin	Add showcase link		30
+1509050146	::1	E	en:showcase	admin			-280
+1509050187	::1	C	en:showcase:pre-post-print-parsons	admin	created		275
+1509050205	::1	E	en:showcase	admin			-308
+1509050235	::1	C	en:showcase:dispersive-edition	admin	created		303
+1509050364	::1	E	en:showcase	admin			96
+1509050455	::1	E	en:showcase	admin			-175
+1509050482	::1	C	en:showcase:g-bodywork	admin			170
+1509050508	::1	E	en:showcase	admin			-252
+1509050533	::1	C	en:showcase:computed-layout	admin			250
+1509050552	::1	E	en:showcase	admin			-130
+1509050578	::1	C	en:showcase:letter	admin			126
+1509050592	::1	E	en:showcase	admin	[To put into individual posts still:] 		-415
+1509050612	::1	C	en:showcase:html-output	admin			411
+1509050636	::1	E	en:showcase	admin			-301
+1509050665	::1	C	en:showcase:diploma	admin			248
+1509051049	::1	E	en:showcase:diploma	admin			79
+1509051266	::1	D	en:showcase:computed-layout	admin	removed		-250
+1509051789	::1	E	en:showcase:g-bodywork	admin			36
+1509051862	::1	D	en:showcase:diploma	admin	removed		-327
+1509051965	::1	C	en:showcase:contextualised-information	admin			346
+1509052002	::1	E	en:showcase	admin			3

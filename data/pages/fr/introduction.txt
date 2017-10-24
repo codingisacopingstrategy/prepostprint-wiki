@@ -1,6 +1,6 @@
 {{ :illustration-white.svg?400 |}}
 
-====== About ======
+====== À propos ======
 
 PrePostPrint est un laboratoire et groupe de recherche autour des systèmes de publication libres alternatifs.
 

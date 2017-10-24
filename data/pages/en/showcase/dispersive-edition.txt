@@ -1,0 +1,1 @@
+[[https://raphaelbastide.com/workshops/dispersive/|Dispersive Edition]] is a workshop initiated by Raphaël Bastide where students were invited to use web technologies (HTML and CSS) to produce two documents based on a single content. The result is web pages completed only when they come to be printed.
