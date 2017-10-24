@@ -16,22 +16,9 @@ if (!defined('DOKU_INC')) die();
         <ul class="a11y skip">
             <li><a href="#dokuwiki__content"><?php echo $lang['skip_to_content']; ?></a></li>
         </ul>
+        
 
-        <h1><?php
-            // get logo either out of the template images folder or data/media folder
-            $logoSize = array();
-            $logo = tpl_getMediaFile(array(':wiki:logo.png', ':logo.png', 'images/logo.png'), false, $logoSize);
-
-            // display logo and wiki title in a link to the home page
-            tpl_link(
-                wl(),
-                '<img src="'.$logo.'" '.$logoSize[3].' alt="" /> <span>'.$conf['title'].'</span>',
-                'accesskey="h" title="[H]"'
-            );
-        ?></h1>
-        <?php if ($conf['tagline']): ?>
-            <p class="claim"><?php echo $conf['tagline']; ?></p>
-        <?php endif ?>
+        <h1><a href="<?php echo wl() ?>"><span class="p1">Pre</span><span class="p2">Post</span><span class="p3">Print</span></a></h1>
     </div>
 
     <div class="tools group">
@@ -53,41 +40,18 @@ if (!defined('DOKU_INC')) die();
                             tpl_action('login', true, 'li', true)
                         ));
                     ?>
+                    <?php
+                    $translation = plugin_load('helper','translation');
+                    if ($translation) echo $translation->showTranslations();
+                    ?>
+                    
                 </ul>
             </div>
         <?php endif ?>
 
-        <!-- SITE TOOLS -->
-        <div id="dokuwiki__sitetools">
-            <h3 class="a11y"><?php echo $lang['site_tools']; ?></h3>
-            <?php tpl_searchform(); ?>
-            <div class="mobileTools">
-                <?php tpl_actiondropdown($lang['tools']); ?>
-            </div>
-            <ul>
-                <?php
-                    tpl_toolsevent('sitetools', array(
-                        tpl_action('recent', true, 'li', true),
-                        tpl_action('media', true, 'li', true),
-                        tpl_action('index', true, 'li', true)
-                    ));
-                ?>
-            </ul>
-        </div>
 
     </div>
 
-    <!-- BREADCRUMBS -->
-    <?php if($conf['breadcrumbs'] || $conf['youarehere']): ?>
-        <div class="breadcrumbs">
-            <?php if($conf['youarehere']): ?>
-                <div class="youarehere"><?php tpl_youarehere() ?></div>
-            <?php endif ?>
-            <?php if($conf['breadcrumbs']): ?>
-                <div class="trace"><?php tpl_breadcrumbs() ?></div>
-            <?php endif ?>
-        </div>
-    <?php endif ?>
 
 
 

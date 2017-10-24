@@ -50,8 +50,6 @@ $showSidebar = $hasSidebar && ($ACT=='show');
             <div id="dokuwiki__content"><div class="pad group">
                 <?php html_msgarea() ?>
 
-                <div class="pageId"><span><?php echo hsc($ID) ?></span></div>
-
                 <div class="page group">
                     <?php tpl_flush() ?>
                     <?php tpl_includeFile('pageheader.html') ?>
@@ -60,8 +58,6 @@ $showSidebar = $hasSidebar && ($ACT=='show');
                     <!-- wikipage stop -->
                     <?php tpl_includeFile('pagefooter.html') ?>
                 </div>
-
-                <div class="docInfo"><?php tpl_pageinfo() ?></div>
 
                 <?php tpl_flush() ?>
             </div></div><!-- /content -->

@@ -10,6 +10,20 @@
 /* header
 ********************************************************************/
 
+.headings h1 {
+    position: relative;
+}
+
+.headings h1 a:hover span{
+    transform: none;
+    transition: all .1s ease-out;
+}
+
+.p1{ transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);position:absolute; left:.2em;}
+.p2{ transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-20deg, 0deg);position:absolute; left:2em;}
+.p3{position: absolute; left:4.1em;}
+
+
 #dokuwiki__header {
     padding: 2em 0 1.5em;
 
@@ -22,38 +36,11 @@
         margin-top: .2em;
     }
 
-    h1 {
-        margin: 0;
-        font-size: 1.5em;
-        font-weight: normal;
-
-        img {
-            float: left;
-            margin-right: .5em;
-        }
-
-        span {
-            display: block;
-            padding-top: 10px;
-        }
-
-        a {
-            text-decoration: none;
-            color: @ini_text;
-            background-color: inherit;
-        }
-    }
-
     p.claim {
         margin-bottom: 0;
         font-size: 0.875em;
     }
 
-    /* make all links in header (including breadcrumb and interwiki) same colour as the rest */
-    a {
-        color: @ini_link;
-        background-color: inherit;
-    }
 }
 
 [dir=rtl] #dokuwiki__header h1 img {
@@ -318,6 +305,13 @@ form.search {
         margin-bottom: 0;
         padding: 0;
     }
+    
+    /* Menu large */
+    li {
+        margin-bottom: 30px;
+        font-family: nanook, arco, sans-serif;
+        font-size: 20px;
+    }
 
     a:link,
     a:visited {
@@ -358,11 +352,6 @@ form.search {
 
 .dokuwiki div.page {
     clear: both;
-    background: @ini_background;
-    color: inherit;
-    border: 1px solid @ini_background_alt;
-    box-shadow: 0 0 .5em @ini_text_alt;
-    border-radius: 2px;
     padding: 1.556em 2em 2em;
     margin-bottom: .5em;
     overflow: hidden;
@@ -405,8 +394,7 @@ form.search {
     }
 
     div.license {
-        margin-bottom: 0.5em;
-        font-size: 100%;
+        display: inline;
     }
 
     div.buttons a {
