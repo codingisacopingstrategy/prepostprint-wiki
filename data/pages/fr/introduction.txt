@@ -2,6 +2,6 @@
 
 ====== À propos ======
 
-PrePostPrint est un laboratoire et groupe de recherche autour des systèmes de publication libres alternatifs.
+PrePostPrint est un laboratoire et groupe de recherche autour des systèmes de publication libres alternatifs. PrePostPrint focalise notamment sur l’utilisation des technologies issu du web pour créer des publications hybrides et imprimés.
 
 PrePostPrint a la vocation de rassembler les acteurs qui travaillent autour des techniques de publications expérimentales et ainsi que de faciliter l’accès aux projets et aux outils existants. Nous partageons la volonté de repenser les maillons de la chaîne de publication. Nous souhaitons nous passer des logiciels classiques de mise en page et d'édition pour nous tourner vers des technologies plus accessibles et conviviales, pouvant évoluer et s'adapter à chaque projet. La programmation devient un outil de design et permet de réinventer sans cesse le processus de création éditoriale, questionnant les formats et les formes de publications.
