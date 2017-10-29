@@ -18,7 +18,8 @@ if (!defined('DOKU_INC')) die();
         </ul>
         
 
-        <h1><a href="<?php echo wl() ?>"><span class="p1">Pre</span><span class="p2">Post</span><span class="p3">Print</span></a></h1>
+        <!-- This code helps to generate a link to the homepage with the current language -->
+        <h1><a href="<?php echo wl(':' . explode(":", $INFO['namespace'])[0] . ':introduction') ?>"><span class="p1">Pre</span><span class="p2">Post</span><span class="p3">Print</span></a></h1>
     </div>
 
     <div class="tools group">
